@@ -1,0 +1,13 @@
+.list-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.msj-text {
+    font-size: 35px;
+    color: #2c3e50;    
+    padding: 20px;    
+    background-color: #fcfcfc;
+}
