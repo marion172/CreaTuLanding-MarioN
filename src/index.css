@@ -1,12 +1,9 @@
-/* src/index.css */
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 }
 
-/* IMPORTANTE: Quitamos márgenes y paddings por defecto */
 * {
   margin: 0;
   padding: 0;
@@ -16,16 +13,16 @@
 body {
   margin: 0;
   display: flex;
-  place-items: flex-start; /* Asegura que empiece arriba */
+  place-items: flex-start; 
   min-width: 320px;
   min-height: 100vh;
-  width: 100%; /* Ocupar todo el ancho */
+  width: 100%; 
   background-color: #ffffff;
 }
 
 #root {
-  width: 100%; /* El contenedor de React debe ocupar el 100% */
+  width: 100%; 
   margin: 0;
   padding: 0;
-  text-align: left; /* Quitamos el centrado forzado de texto */
+  text-align: left;
 }
