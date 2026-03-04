@@ -1,0 +1,100 @@
+.order-confirmation-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.order-confirmation-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 2.5rem;
+  max-width: 560px;
+  width: 100%;
+  text-align: center;
+}
+
+.order-success-icon {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.order-confirmation-card h1 {
+  font-size: 1.8rem;
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+}
+
+.order-id-box {
+  background: #f1f8f1;
+  border: 2px dashed #2e7d32;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.order-id-box span {
+  font-size: 0.85rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.order-id-box strong {
+  font-size: 1rem;
+  color: #1b5e20;
+  word-break: break-all;
+}
+
+.order-summary {
+  text-align: left;
+  margin: 1.5rem 0;
+}
+
+.order-summary h3 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.order-summary li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 2px solid #eee;
+  font-size: 1.05rem;
+}
+
+.order-total strong {
+  color: #2e7d32;
+}
+
+.order-email-note {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
